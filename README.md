@@ -37,7 +37,7 @@ Finally, as a fallback we simply call the deposit function. Having a fallback is
 <br>
 
 
-## Executing the contract
+## Executing the Contract
 
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Compile.PNG"></img></p>
 <br>
