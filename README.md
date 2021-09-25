@@ -12,7 +12,7 @@ Level One is an AssociateProfitSplitter contract. This will accept Ether into th
 
 For the sake of time, I chose to only finish the first level of the assignment. The portion of the readme below is a walkthrough of that first level of completion.
 
-### Contract overview
+### Contract Overview
 
 
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Contract1.PNG"></img></p>
