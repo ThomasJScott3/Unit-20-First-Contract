@@ -37,7 +37,7 @@ Finally, as a fallback we simply call the deposit function. Having a fallback is
 <br>
 
 
-### Executing the contract
+## Executing the contract
 
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Compile.PNG"></img></p>
 <br>
@@ -76,6 +76,6 @@ Finally, navigate back to ganache and review the balances for the three associat
 
 Thus concludes level 1 of the assignment.
 
-#### End of Report
+### End of Report
 
 
