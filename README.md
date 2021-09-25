@@ -11,8 +11,9 @@ This assignment has three levels of difficulty, with each contract increasing in
 Level One is an AssociateProfitSplitter contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently."
 
 For the sake of time, I chose to only finish the first level of the assignment. The portion of the readme below is a walkthrough of that first level of completion.
-
-### Contract Overview
+<br>
+ 
+## Contract Overview
 
 
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Contract1.PNG"></img></p>
@@ -32,6 +33,9 @@ Next, we have our deposit function. The first element is the portion where we de
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Contract4.PNG"></img></p>
 <br>
 Finally, as a fallback we simply call the deposit function. Having a fallback is something that was requested in the instructions.
+
+<br>
+
 
 ### Executing the contract
 
@@ -55,6 +59,7 @@ You should immediately get a pop-up in metamask. As you can see, the amount corr
 <br>
 <p>
 
+  
 
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Deposit.PNG"></img></p>
 <br>
@@ -62,6 +67,7 @@ The metamask window should then disappear. Next, navigate down to the deposit bu
 <br>
 <p>
 
+  
 
 <img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Ganash.PNG"></img></p>
 <br>
