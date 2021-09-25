@@ -1,4 +1,4 @@
-# Unit 20 - "Looks like we've made our First Contract!""Looks like we've made our First Contract!"
+# Unit 20 - "Looks like we've made our First Contract!"
 
 <img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Banner.png"></img>
 
@@ -21,7 +21,7 @@ This is the part of the contract where we set up our payables. The code provided
 <br>
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Contract3.PNG"></img></p>
 <br>
-Next, we have our deposit function. The first element is the portion where we declare a variable called about of type uint, set it equal to the value we will input later below and then divide it by 3. This part is actually brilliantly simple. Since we have 3 employees, we are dividing a given amount by 3 and giving each of employees a slice.
+Next, we have our deposit function. The first element is the portion where we declare a variable called 'amount' of type uint, set it equal to the value we will input later below and divided by 3. This part is actually brilliantly simple. Since we have 3 associates, we are dividing a given amount by 3 and giving each of them a slice.
 <br>
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Contract4.PNG"></img></p>
 <br>
@@ -35,7 +35,7 @@ The first thing you will want to do is compile the contract. If you see a green 
 <br>
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Deploy.PNG"></img></p>
 <br>
-Next, you will deploy your contract. Make sure that your environment is set to 'injected web3' and that your ganash testnet is set up in ganache. I had to do the latter all over again and then synch it with metamask. In addition, make sure that you specify that your funding account is different from the 3 accounts in ganache you will be disbursing ether to. Finally, please remember to input a number under 'value' (think back to that part from the code). Bear in mind that you cannot transfer more than the balance of your account. Otherwise you will get an error. I chose a value of 9 because it is divisible into thirds. Finally, input the addresses of the 3 associate's accounts. Again, make sure they are different from the account you sourcing ether from. After that, press the 'transact' button.
+Next, you will deploy your contract. Make sure that your environment is set to 'injected web3' and that your ganache testnet is connected to metamask. I had to do the latter all over again and then re-synch it with metamask. In addition, you must ensure that your funding account is different from the 3 accounts in ganache that you will be disbursing ether to. Finally, please remember to input a number under 'value' (think back to the code). Bear in mind that you cannot transfer more than the balance of your account. Otherwise you will get an error for insufficient funds. I chose a value of 9 because it is divisible into thirds. Finally, input the addresses of the 3 associates' accounts. Again, make sure they are different from the account you sourcing ether from. After that, press the 'transact' button.
 <br>
 <p align="center"><img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/DeployMetamask.PNG"></img></p>
 <br>
@@ -43,11 +43,11 @@ You should immediately get a pop-up in metamask. As you can see, the amount corr
 <br>
 <img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Deposit.PNG"></img></p>
 <br>
-The metamask window should then disappear. Next, navigate down to the deposit button which is the visual representation of the deposit function from the contract. Take note of the balance button as well. Next, press deposit and click confirm when metamask pops up again.
+The metamask window should then disappear. Next, navigate down to the deposit button, which is the visual representation of the deposit function from the contract. Take note of the balance button as well. Next, press deposit and click confirm when metamask pops up again.
 <br>
 <img src="https://github.com/ThomasJScott3/Unit-20-First-Contract/blob/main/Images/Ganash.PNG"></img></p>
 <br>
-Finally, navigate back to ganache and review the balances for the three associate accounts. They should each have equal thirds of whatever value you chose to transfer.
+Finally, navigate back to ganache and review the balances for the three associate accounts. As you can see above, they should each have equal thirds of whatever value you chose to transfer. In our case, each account started with 100 ETH and now has 103 ETH.
 
 
 Thus concludes level 1 of the assignment
